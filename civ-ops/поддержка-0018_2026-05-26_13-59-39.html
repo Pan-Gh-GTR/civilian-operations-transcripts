@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Гражданские Операции — поддержка-0018</title>
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1363556047704293517/1425136721569517628/----MRP-V3.png?ex=68e67d80&is=68e52c00&hm=2a30aa2c5504d5501f7b12e63cd613c22cea6fcb5c7338eb14e777d47b5e712e&" />
+<script>window.$discordMessage={profiles:{"1413807061883420744":{"author":"Гражданские Операции","avatar":"https://cdn.discordapp.com/avatars/1413807061883420744/d2d4a7230372d1b7690cbd69a45cb620.png?size=128","roleColor":"#ffffff","roleIcon":"","roleName":"User","bot":true,"verified":false},"760966468715937814":{"author":"bjmajgda","avatar":"https://cdn.discordapp.com/avatars/760966468715937814/329f14a1e5a58d8366ed61b5b0d806ed.png?size=128","roleColor":"#ffffff","roleIcon":"","roleName":"User","bot":false,"verified":false},"585394439715946518":{"author":"KapitaN","avatar":"https://cdn.discordapp.com/avatars/585394439715946518/e82f31f878077dcd383254c613d59c3d.png?size=128","roleColor":"#ffffff","roleIcon":"","roleName":"User","bot":false,"verified":false}}};</script>
+<style>
+body{background:#36393f;color:#dcddde;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;margin:0;padding:0}
+#lightboxOverlay{display:none;position:fixed;left:0;top:0;right:0;bottom:0;width:100vw;height:100vh;z-index:99999;background:rgba(30,30,30,.85);align-items:center;justify-content:center}
+#lightboxImg{max-width:90vw;max-height:90vh;object-fit:contain;border-radius:6px;box-shadow:0 4px 20px rgba(0,0,0,.6);background:#222}
+discord-reactions{display:flex;flex-wrap:wrap;gap:2px;margin-top:8px}
+discord-reaction{display:inline-flex;align-items:center;border-radius:6px;margin-right:2px;padding:2px 4px;font-size:14px;color:#dcddde}
+discord-custom-emoji{vertical-align:middle;margin-right:4px}
+.emoji-img{height:18px;width:18px;vertical-align:middle;display:inline-block;object-fit:contain}
+.reply-preview{margin-bottom:6px;padding:6px 10px;border-left:3px solid #5865f2;background:#2b2d31;border-radius:4px;color:#b5bac1;cursor:pointer}
+</style>
+<script>
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!target) return;
+      const goto = target.getAttribute && target.getAttribute("data-goto");
+      if (goto) {
+        const reply = document.getElementById("m-" + goto);
+        if (reply) {
+          reply.scrollIntoView({ behavior: "smooth", block: "center" });
+          reply.style.backgroundColor = "rgba(148,156,247,0.1)";
+          reply.style.transition = "background-color 0.5s ease";
+          setTimeout(() => { reply.style.backgroundColor = "transparent"; }, 1000);
+        }
+      }
+      if (target.matches && target.matches("discord-attachment[type=image] img, .discord-image, img[data-lightbox]")) {
+        const src = target.getAttribute("src") || "";
+        if (src) {
+          const overlay = document.getElementById("lightboxOverlay");
+          const img = document.getElementById("lightboxImg");
+          overlay.style.display = "flex";
+          img.src = src;
+        }
+      }
+    });
+    window.addEventListener("DOMContentLoaded", () => {
+      const overlay = document.getElementById("lightboxOverlay");
+      if (overlay) overlay.addEventListener("click", () => { overlay.style.display = "none"; });
+    });
+  </script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@derockdev/discord-components-core@latest/dist/derockdev-discord-components-core/derockdev-discord-components-core.esm.js"></script>
+</head>
+<body>
+<div id="lightboxOverlay"><img id="lightboxImg" src="" alt="Просмотр"/></div>
+<discord-messages style="min-height:100vh">
+<discord-message author="Moscow RolePlay" avatar="https://cdn.discordapp.com/icons/1335661836342919259/67b92f6a83418182501832128de6802c.webp?size=1024" timestamp="2026-05-26_13-59-39">Тикет Закрыт.<br/>Причина: В мэрии начались реформы, все проблемы будут решены<br/>Закрыл: <@585394439715946518><br/>Дата: 2026-05-26_13-59-39<br/><a href="https://civops-transcripts.erlcrussia.xyz/civ-ops/поддержка-0018_2026-05-26_13-59-39.html" style="color: #00aff4;">https://civops-transcripts.erlcrussia.xyz/civ-ops/поддержка-0018_2026-05-26_13-59-39.html</a></discord-message>
+<discord-message id="m-1506338010986450945" timestamp="2026-05-19T16:49:28.226Z" profile="1413807061883420744"><div slot="components" style="margin-top:8px;"><div style="padding:8px;color:#dcddde;"><discord-mention type="role">Менеджмент</discord-mention> <discord-mention type="role">Менеджмент Гражданских Операций</discord-mention> <discord-mention type="role">Главный Куратор</discord-mention> <discord-mention type="role">Куратор Гражданских Операций</discord-mention> <discord-mention type="user">bjmajgda</discord-mention></div><div style="background:#2f3136;border-left:4px solid #229400;border-radius:4px;margin:8px 0;overflow:hidden;"><div style="padding:8px 12px;"><div style="display:flex;gap:16px;align-items:flex-start;"><img src="https://cdn.discordapp.com/avatars/760966468715937814/5a6ac06b184febd402852b0261dbb0df.webp" style="width:80px;height:80px;border-radius:8px;object-fit:cover;flex-shrink:0;" /><div><span style="font-size:1.6em;font-weight:bold;color:#fff;display:block;margin:8px 0;"><img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f4e8.svg" alt="📨" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> Новый Тикет — Поддержка</span><br/><strong>В чём проблема:</strong><br/>Небольшое предложение по удалению нескольких ролей из Мэрии</div></div></div><div style="padding:4px 12px;color:#dcddde;"><img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/23f3.svg" alt="⏳" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> <strong>Ожидайте ответа от персонала.</strong></div><div style="height:1px;background:#4f545c;margin:4px 0;"></div><div style="height:8px;"></div><div style="display:flex;gap:8px;padding:8px 0;flex-wrap:wrap;"><button disabled style="background:#4f545c;color:#ffffff;padding:8px 16px;border:none;border-radius:4px;display:inline-flex;align-items:center;font-size:14px;font-weight:500;">🔒 Закрыть Тикет</button><button disabled style="background:#4f545c;color:#ffffff;padding:8px 16px;border:none;border-radius:4px;display:inline-flex;align-items:center;font-size:14px;font-weight:500;">📥 Взять Тикет</button></div></div></div></discord-message>
+<discord-message id="m-1506338046025535620" timestamp="2026-05-19T16:49:36.580Z" profile="760966468715937814">Сейчас все распишу</discord-message>
+<discord-message id="m-1506338191685324971" timestamp="2026-05-19T16:50:11.308Z" profile="760966468715937814"><discord-attachments slot="attachments"><img class="discord-image" data-lightbox="true" src="attachments/1506338191685324971_image.png" alt="image.png" style="max-width:420px;border-radius:8px;margin-top:8px;cursor:pointer;" /></discord-attachments></discord-message>
+<discord-message id="m-1506340385071567020" timestamp="2026-05-19T16:58:54.252Z" profile="760966468715937814">В данный момент у нас существуют несколько ролей для мэрии, которые по сути не нужны серверу, так как Мэрия в основном не играют в роблокс, а сидят только в Дискорде.<br/>1. Которые подчеркнуты это немного не те роли, которые в данный момент нужны серверу.<br/>Из всех их них больше мне пригляделся Департамент Образования. Краткими словами - это главное столичное ведомство, которое управляет<strong> всеми школами</strong>, <strong>детскими садами</strong>, <strong>колледжами и кружками</strong>, <strong>а также отвечает за работу с научными институтами в городе.</strong><br/>В данный момент я знаю только о бизнесе Алекса, то ли институт, то ли колледж. <br/> У нас существует правило - <strong>F-5 — Запрещается отыгрывать РП детьми или лицами младше 18 лет.</strong><br/>По нему мы понимаем, что у нас сразу отпадают детские сады, школы( так как хоть там и учатся некоторые еще и 18 лет, но основная аудитория там моложе),<strong> Колледжи, а также институты</strong> - К ним бы у меня вопрос не было бы, если бы ими пользовались, а так я не вижу ни одного ученика или студента на сервере. <br/>Подводя итоги по этой роли, можно сказать, что она не слишком нам нужна и захламляет сервер лишней ролью.</discord-message>
+<discord-message id="m-1506342693780066305" timestamp="2026-05-19T17:08:04.691Z" profile="760966468715937814">2. Министр Правительства Москвы - должностной статус, который присваивается ключевым членам исполнительной власти столицы, обычно совмещающим эту государственную должность с руководством одним из важнейших городских департаментов.<br/>К примеру люди, которыре сейчас занимают эту должность:<br/>Елена Зяббарова — <strong>руководитель Департамента финансов.</strong><br/>Алексей Немерюк — <em></em>руководитель Департамента торговли и услуг.<br/>Алексей Хрипун — <strong>руководитель Департамента здравоохранения.</strong><br/>Евгений Данчиков — <strong>начальник Главного контрольного управления (Главконтроль).</strong><br/>Мария Багреева — <strong>руководитель Департамента экономической политики и развития (также совмещает с постом заммэра).</strong><br/>Максим Гаман — <strong>руководитель Департамента городского имущества.</strong><br/>Эдуард Лысенко — <strong>руководитель Департамента информационных технологий.</strong><br/>Евгений Стружак — <strong>руководитель Департамента труда и социальной защиты населения.</strong><br/>Алексей Фурсин — <strong>руководитель Департамента культуры.</strong><br/>Владислав Овчинский — <strong>руководитель Департамента инвестиционной и промышленной политики.</strong><br/>Сергей Черёмин — <strong>руководитель Департамента внешнеэкономических и международных связей.</strong></discord-message>
+<discord-message id="m-1506343957238386689" timestamp="2026-05-19T17:13:05.923Z" profile="760966468715937814">в данный момент у нас туда входит Алекс - то есть Департамент Образования.</discord-message>
+<discord-message id="m-1506344021348585543" timestamp="2026-05-19T17:13:21.208Z" profile="760966468715937814">С данной ролью я еще согласен. Переходим дальше</discord-message>
+<discord-message id="m-1506344632458674248" timestamp="2026-05-19T17:15:46.908Z" profile="760966468715937814">Департамент Контроля и Услуг - Отвечает за розничную торговлю, общественное питание (рестораны, кафе), бытовые услуги, проведение городских ярмарок и фестивалей, а также за ритуальные услуги.</discord-message>
+<discord-message id="m-1506344879842791576" timestamp="2026-05-19T17:16:45.889Z" profile="760966468715937814">Следить, извиняюсь я спросить за 2 бизнесами?</discord-message>
+<discord-message id="m-1506344961833172993" timestamp="2026-05-19T17:17:05.437Z" profile="760966468715937814">Которые и так почти инактив</discord-message>
+<discord-message id="m-1506345224186626048" timestamp="2026-05-19T17:18:07.987Z" profile="760966468715937814">Это самая нужная роль у нас сейчас.<br/>С ноткой такой же Иронией я могу сказать и о действующем Мэре, который не знал, что парковки бывают платными</discord-message>
+<discord-message id="m-1506345314624340038" timestamp="2026-05-19T17:18:29.549Z" profile="760966468715937814">И последняя роль - это Главк</discord-message>
+<discord-message id="m-1506345412582309969" timestamp="2026-05-19T17:18:52.904Z" profile="760966468715937814">Это главный контролирующий орган столицы. Он проверяет, как тратятся бюджетные деньги города, как госзакупки проходят проверку и как департаменты исполняют поручения Мэра.</discord-message>
+<discord-message id="m-1506345641268347081" timestamp="2026-05-19T17:19:47.427Z" profile="760966468715937814">И как это проверяется, когда в Мэрии 2 человека. Да и зачем, если у нас по сути своей нету бюджета города, как такового.</discord-message>
+<discord-message id="m-1506346013475213403" timestamp="2026-05-19T17:21:16.168Z" profile="760966468715937814"><span style="font-size:1.6em;font-weight:bold;color:#fff;display:block;margin:8px 0;"><strong>жду рассмотрения от руководства проекта</strong></span></discord-message>
+<discord-message id="m-1506346981331697695" timestamp="2026-05-19T17:25:06.923Z" profile="760966468715937814"></discord-message>
+<discord-message id="m-1506347115872260128" timestamp="2026-05-19T17:25:39.000Z" profile="760966468715937814">Ну также, хоть это не тикет на жалобу, но все же. Помоему Мэр должен быть более сдержанным</discord-message>
+<discord-message id="m-1506424252411281458" timestamp="2026-05-19T22:32:09.784Z" profile="760966468715937814"><discord-mention type="user">KapitaN</discord-mention></discord-message>
+<discord-message id="m-1508786689366163536" timestamp="2026-05-26T10:59:38.646Z" profile="1413807061883420744"><div slot="components" style="margin-top:8px;"><div style="background:#2f3136;border-left:4px solid #fbfe32;border-radius:4px;margin:8px 0;overflow:hidden;"><div style="padding:4px 12px;color:#dcddde;"><span style="font-size:1.1em;font-weight:bold;color:#fff;display:block;margin:4px 0;"><img src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f512.svg" alt="🔒" class="emoji-img" style="height:18px;width:18px;vertical-align:middle;display:inline-block;" loading="lazy" onerror="this.style.display='none'"/> Тикет закроется через несколько секунд...</span></div></div></div></discord-message>
+</discord-messages></body></html>
